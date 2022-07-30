@@ -1,0 +1,41 @@
+<h3 mat-dialog-title><strong>ADD Lesson</strong></h3>
+<div mat-dialog-content>
+   <form [formGroup]="lessonsForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Add a Lesson Name</mat-label>
+      <input formControlName="lessonName" matInput placeholder="Lesson Name">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Add a Teacher Name</mat-label>
+      <mat-select formControlName="teacherName" placeholder="Teacher Name">
+        <mat-option value="Ahmed">Ahmed</mat-option>
+        <mat-option value="Sara">Sara</mat-option>
+        <mat-option value="Eman">Eman</mat-option>
+        <mat-option value="Mostafa">Mostafa</mat-option>
+      </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Add a Student Name</mat-label>  
+      <mat-select formControlName="studentName"  placeholder="Student Name">
+        <mat-option value="Mohamed">Mohamed</mat-option>
+        <mat-option value="Mona">Mona</mat-option>
+        <mat-option value="Belal">Belal</mat-option>
+        <mat-option value="Mariam">Mariam</mat-option>
+      </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Add an hours</mat-label>  
+      <mat-select formControlName="hoursNumber" placeholder="hours">
+        <mat-option value="3">3</mat-option>
+        <mat-option value="4">4</mat-option>
+        <mat-option value="5">5</mat-option>
+        <mat-option value="6">6</mat-option>
+      </mat-select>
+      </mat-form-field>
+    </form>
+</div>
+   
+<div mat-dialog-action [align]="'end'">
+  <button mat-raised-button color="warn" mat-dialog-close>cancle</button>
+  <button style="margin-left: 8px;" mat-raised-button color="primary" (click)="addLesson()">{{actionbtn}}</button>
+</div>

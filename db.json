@@ -1,0 +1,41 @@
+{
+  "lessonList": [
+    {
+      "lessonName": "Math",
+      "teacherName": "Ahmed",
+      "studentName": "Belal",
+      "hoursNumber": "4",
+      "id": 2
+    },
+    {
+      "lessonName": "Discover",
+      "teacherName": "Mostafa",
+      "studentName": "Mohamed",
+      "hoursNumber": "4",
+      "id": 3
+    },
+    {
+      "lessonName": "Science",
+      "teacherName": "Eman",
+      "studentName": "Mona",
+      "hoursNumber": "4",
+      "id": 4
+    },
+    {
+      "lessonName": "Arabic",
+      "teacherName": "Mostafa",
+      "studentName": "Mona",
+      "hoursNumber": "6",
+      "id": 5
+    }
+  ],
+  "login": [
+    {
+      "email": "admin@123",
+      "password": "adminadmin"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
